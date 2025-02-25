@@ -1,0 +1,7 @@
+Participant Client
+Participant Flask Microservice
+
+Client->Flask Microservice: Send HTTP POST with image, mode, rows, cols
+Flask Microservice->Flask Microservice: Process Image
+Flask Microservice->Flask Microservice: Extract colors based on mode
+Flask Microservice->Client: Return 2D color array
